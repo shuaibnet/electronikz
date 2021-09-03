@@ -1,55 +1,47 @@
 const INITIAL_STATE = {
     sections: [
         {
-            title: 'Laptops',
-            imageUrl: 'https://i.ibb.co/JF36F5b/mac2.jpg',
+            title: 'mens',
+            imageUrl: 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg',
             id: 1,
-            linkUrl: 'laptops'
+            linkUrl: 'shop/mens'
         },
         {
-            title: 'Phones',
-            imageUrl: 'https://i.ibb.co/P9vJcGQ/iphone.jpg',
+            title: 'Jewelery',
+            imageUrl: 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg',
             id: 2,
-            linkUrl: 'phones'
+            linkUrl: 'shop/jewelery'
         },
         {
-            title: 'TV',
-            imageUrl: 'https://i.ibb.co/r2c8h8K/TV2.jpg',
+            title: 'Electronics',
+            imageUrl: "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
             id: 3,
-            linkUrl: 'tv'
+            linkUrl: 'shop/electronics'
         },
         {
-            title: 'Smart Home',
-            imageUrl: 'https://i.ibb.co/dtJQf0X/smart2.jpg',
+            title: 'Womens clothing',
+            imageUrl: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
             id: 4,
-            linkUrl: 'smartHome'
+            linkUrl: 'shop/womens'
         },
         {
-            title: 'Whats the best',
-            imageUrl: 'https://i.ibb.co/GsLSGWw/wash.png',
+            title: 'Hats',
+            imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
             id: 5,
             size: 'large',
-            linkUrl: 'theBest'
+            linkUrl: 'sho/hats'
         },
         {
-            title: 'Washing Machine',
-            imageUrl: 'https://i.ibb.co/P5QfYzn/Wash.jpg',
+            title: 'Sneakers',
+            imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
             id: 6,
-            linkUrl: 'washingMachine'
+            linkUrl: 'shop/sneakers'
         },
         {
-            title: 'Home & Kitchen',
-            imageUrl: 'https://i.ibb.co/sP4gz9M/vac.jpg',
+            title: 'Jackets',
+            imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
             id: 8,
-            linkUrl: 'Home&Kitchen'
-        },
-
-        {
-            title: 'Personal Fitness',
-            imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-            size: 'xl',
-            id: 9,
-            linkUrl: 'fitness'
+            linkUrl: 'shop/jackets'
         }
     ]
 };
