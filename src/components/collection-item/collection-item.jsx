@@ -20,7 +20,7 @@ const CollectionItem = ({ item, addItem }) => {
           backgroundImage: `url(${imageUrl})`
         }}
       />
-         <Button className="add-to-cart" variant="contained" color="primary"
+         <Button className="add-to-cart" variant="outlined" color="secondary"
           onClick={()=> addItem(item)} startIcon={<AddShoppingCartIcon />}>
             Add to Cart 
             </Button>
