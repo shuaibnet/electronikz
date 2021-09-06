@@ -40,6 +40,20 @@ const config = {
       return userRef;
   };
 
+
+export const addCollectionAndDocuments = async (collectionkey, objectsToAdd) => {
+    const collectionRef = firestore.collection(collectionkey);
+    const batch = firestore.batch();
+    objectsToAdd.forEach(obj => {
+        const newDocRef = collectionRef.doc();
+        batch.set(newDocRef, obj);
+    });
+
+return await batch.commit();
+
+};
+
+
 firebase.initializeApp(config);
 
 export const auth = firebase.auth();
