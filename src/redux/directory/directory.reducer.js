@@ -29,7 +29,7 @@ const INITIAL_STATE = {
             imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
             id: 5,
             size: 'large',
-            linkUrl: 'sho/hats'
+            linkUrl: 'shop/hats'
         },
         {
             title: 'Sneakers',
